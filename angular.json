@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "drepano"
+    }
+  },
+  "defaultProject": "drepano",
+  "cli": {
+    "analytics": false
+  }
 }

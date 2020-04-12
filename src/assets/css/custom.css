@@ -1,0 +1,153 @@
+body{
+  font-family: "Sen", sans-serif ;
+  font-weight: normal  !important;
+  font-style: normal  !important;
+}
+a{
+      font-size: 15px !important;
+}
+
+.popular_catagory_area,.job_listing_area,.featured_candidates_area,.top_companies_area{
+  background:   white;
+}
+
+.single_company:hover{
+  border:   solid 0.5px;  
+  border-color: rgba(255, 198, 92, 0.349)!important;
+}
+
+.round{
+  height: 100px;
+  width:  100px;
+  border-radius:   50%;
+}
+
+.catagory_area{
+  padding:  100px 0px 0px 0px;
+}
+
+.job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent .links_locat .location p span,.author span{
+    background: rgb(255, 250, 230);
+    color: rgb(255, 198, 10);
+    font-weight: 400;
+    padding: 6px 17px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.job_details_area{
+  background: white;
+}
+
+.job_details_area .job_sumary .job_content{
+  padding:  40px 0px 0px 0px;
+}
+.author span{
+    background: rgb(255, 250, 230);
+    color: rgb(255, 198, 10);
+    font-weight: 400;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.comment-content{
+  padding-left:40px;
+}
+.sub-comment{
+  padding-left:80px;
+}
+a:hover{
+  color: #e8b400;
+}
+.user-comment input,.user-comment button{
+  border-radius :10px;
+  border:0;
+}
+.user-comment button{
+    display: inline-block;
+    font-family: "Sen", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff !important;
+    /* text-transform: capitalize; */
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.user-comment button{
+    color: #fff !important;
+    /* text-transform: capitalize; */
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    background:#e8b400;
+}
+.user-comment button:hover{
+    color: #fff !important;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border-color: #e8b400;
+    opacity: 0.5;
+}
+
+.single_candidates:hover{
+  border:   solid 0.5px;  
+  border-color: rgba(255, 198, 92, 0.349)!important;
+}
+
+.section-padding{
+  padding-bottom: 0px;
+}
+.featured_candidates_area.candidate_page_padding{
+  padding-top: 10px
+}
+
+.blog_area a:hover, .blog_area a :hover{
+  background: -webkit-linear-gradient(131deg, #e8b400 0%, #e8b400 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+b{
+  color:  #e8b400;
+}
+.blog_right_sidebar .single_sidebar_widget{
+  background:   white;
+}
+.modal-backdrop{
+  z-index:  -1000;
+}
+
+.btn-primary{
+    background: #e8b400;
+    color: white;
+    border-color: #e8b400;
+}
+.btn-primary:hover{
+    color: #e8b400 !important;
+    border: 1px solid #e8b400;
+    background: transparent;
+}
+
+.job_details_area{
+    padding-top: 0px;
+}
+.tab-content{
+  padding-top:20px;
+}
