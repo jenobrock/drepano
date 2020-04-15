@@ -20,6 +20,9 @@ import { PublicationsRecentesComponent } from './acceuil/publications-recentes/p
 import { ClusterComponent } from './acceuil/cluster/cluster.component';
 import { BannerComponent } from './banner/banner.component';
 import { BodyComponent } from './publication/body/body.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { SeconnecterComponent } from './seconnecter/seconnecter.component';
 
 @NgModule({
   declarations: [
@@ -40,11 +43,14 @@ import { BodyComponent } from './publication/body/body.component';
     PublicationsRecentesComponent,
     ClusterComponent,
     BannerComponent,
-    BodyComponent
+    BodyComponent,
+    SeconnecterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,62 @@
-<p>account works!</p>
+<div class="bradcam_area bradcam_bg_1">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-12">
+              <div class="bradcam_text">
+                  <h3>Compte</h3>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="job_details_area">
+  <div class="container">
+      <div class="row">
+          <div class="apply_job_form white-bg">
+              <h4>Merci d'avoir choisi de créer un compte sur ce site</h4>
+              <p>Veuillez choisir le type de compte, puis remplacez les champs présents : </p><br>
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item">
+                          <a class="nav-link active" id="public-tab" data-toggle="tab" href="#public" role="tab" aria-controls="home" aria-selected="true">Compte pour public</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="organisation-tab" data-toggle="tab" href="#organisation" role="tab" aria-controls="profile" aria-selected="false">Compte pour organisations</a>
+                      </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="public" role="tabpanel" aria-labelledby="public-tab">
+                          <div class="col-lg-4 col-md-6 col-xl-8">
+                              <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+                                  <div class="form-group">
+                                      <input type="text" name="email" class="form-control"ngModel placeholder="Email" /><br>
+                                      <input type="text" name="username" class="form-control"ngModel placeholder="Nom d'utlisateur" /><br>
+                                      <input type="password" name="password"  class="form-control" ngModel placeholder="Mot de passe" /><br>
+                                      <button class="btn btn-primary" type="submit">Créer</button>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                      <div class="tab-pane fade" id="organisation" role="tabpanel" aria-labelledby="organisation-tab">
+                          <div class="col-lg-4 col-md-6 col-xl-8">
+                              <form>
+                                  <div class="form-group">
+                                      <select class="form-control">
+                                          <option>Institus étatiques</option>
+                                          <option>Organes de recherche</option>
+                                          <option>Prestataires directs</option>
+                                          <option>ONG & associations</option>
+                                          <option>Partenaires techniques et financiers</option>
+                                      </select><br/><br/><br>
+                                      <input type="text" name="username" class="form-control" placeholder="Identifiant" /><br>
+                                      <input type="password" name="password"  class="form-control" placeholder="Mot de passe" /><br>
+                                      <button class="btn btn-primary">Créer</button>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
